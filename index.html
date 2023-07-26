@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Layout</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .image-container {
+      flex-basis: calc(33.33% - 10px);
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+    }
+    h1{
+      color: black;
+      font-size: medium;
+      text-align: center;
+    }
+    p{
+      color: black;
+      font-size: small;
+      text-align: center;
+    }
+    input{
+      color:black;
+      background-color: blue;
+      font-size: medium;
+      border: 0;
+      text-align: center;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image-container">
+      <img src="https://assetscdn1.paytm.com/images/cinema/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.jpg" alt="Movie 1"/>
+      <h1> Doctor Stranger</h1>
+      <p> Ratings 4.5</p>
+      <input type="button" value="Book Now"/>
+    </div>
+    <div class="image-container">
+      <img src="https://assetscdn1.paytm.com/images/cinema/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.jpg" alt="Movie 2"/>
+      <h1> Doctor Stranger</h1>
+      <p> Ratings 4.5</p>
+      <input type="button" value="Book Now"/>
+    </div>
+    <div class="image-container">
+      <img src="https://assetscdn1.paytm.com/images/cinema/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.jpg" alt="Movie 3"/>
+      <h1> Doctor Stranger</h1>
+      <p> Ratings 4.5</p>
+      <input type="button" value="Book Now"/>
+    </div>
+    <div class="image-container">
+      <img src="https://assetscdn1.paytm.com/images/cinema/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.jpg" alt="Movie 4"/>
+      <h1> Doctor Stranger</h1>
+      <p> Ratings 4.5</p>
+      <input type="button" value="Book Now"/>
+    </div>
+    <div class="image-container">
+      <img src="https://assetscdn1.paytm.com/images/cinema/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.jpg" alt="Movie 5">
+      <h1> Doctor Stranger</h1>
+      <p> Ratings 4.5</p>
+      <input type="button" value="Book Now"/>
+    </div>
+    <div class="image-container">
+      <img src="https://assetscdn1.paytm.com/images/cinema/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.jpg" alt="Movie 6">
+      <h1> Doctor Stranger</h1>
+      <p> Ratings 4.5</p>
+      <input type="button" value="Book Now"/>
+    </div>
+  </div>
+</body>
+</html>
